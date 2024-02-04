@@ -131,12 +131,12 @@ i {
     font-weight: 100;
     text-align: center;
     color: black;
-    transition: all linear 1s;
+    transition: all linear 0.5s;
 }
 
 .center-text h1:hover {
     background: -webkit-linear-gradient(#f96161, #333);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -185,7 +185,7 @@ span.and {
     color: beige;
     position: absolute;
     right: 80px;
-    bottom: 100px;
+    bottom: 85px;
     border-radius: 50%;
 }
 
@@ -302,11 +302,11 @@ span.and {
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
     position: absolute;
-    transition: all linear .6;
+    transition: all linear 0.6;
     z-index: 99999;
     mix-blend-mode: difference;
     animation-name: bounce;
-    animation-timing-function: linear .5s;
+    animation-timing-function: linear 0.5s;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-direction: reverse;
